@@ -1,0 +1,166 @@
+    body {
+  background-image: url('fondo.jpg');
+}
+
+header {
+ text-align: center;
+ background-color: black;
+}
+
+h1 {
+ color: #f1fbfc; 
+ font-size: 50px;
+ margin-bottom: 10px;
+
+}
+
+.Detalles-del-anime {
+ display: flex; 
+ gap: 30px; 
+ max-width: 1200px; 
+ margin: 0 auto; 
+ padding: 20px;
+ border-radius: 8px;
+ align-items: flex-start;
+}
+
+
+.Sección-izquierda {
+ flex: 0 0 250px;
+ width: 100%;
+ box-sizing: border-box;
+}
+
+.estado-del-anime {
+ background-color: #28a745;
+ color: white;
+ padding: 8px 70px;
+ border-radius: 5px;
+ font-size: 20px;
+ margin-top: 15px;
+ display: inline-block;
+ margin-left: 5px;
+}
+
+.sección-derecha {
+ box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 20px 30px;
+}
+
+.descripcion-sinopsis p {
+ line-height: 1.3; 
+ color: rgb(154, 154, 151);
+ text-align: justify;
+}
+
+
+
+.Lista-de-episodios {
+    max-width: 1200px; 
+    width: 100%;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.episodios-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 25px; 
+    padding: 0 10px; 
+}
+
+.episodios-header h3 {
+    color: #090909; 
+    margin: 0;
+    text-align: left;
+    font-size: 25px;
+}
+
+.episodios-header button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.episodios-header button:hover {
+    background-color: #0056b3;
+}
+
+.galeria-de-episodios {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 30px; 
+    justify-content: center; 
+    padding: 30px 20px;
+    transition: all 0.3s ease-in-out; 
+    overflow: hidden; 
+}
+
+.galeria-de-episodios.hidden {
+    display: none; /* 
+    /* max-height: 0; */
+    /* opacity: 0; */
+    /* padding-top: 0; */
+    /* padding-bottom: 0; */
+}
+
+
+.episodio-formato {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    padding-bottom: 5px; 
+}
+
+.episodio-formato img {
+    width: 100%; 
+    height: 100px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.Lista-de-episodios a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.Pie_de_pagina {
+  background-color: #2b2b2b; 
+  color: #aaa; 
+  padding: 15px 0; 
+  font-size: 0.9rem;
+  margin-top: 50px; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  width: 100%; 
+}
+
+.Botones_del_pie_de_pagina button {
+  
+  background-color: #542b2b; 
+  color: #ccc;              
+  padding: 5px 5px;       
+  border-radius: 10px;       
+  white-space: nowrap;    
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box; 
+}
+
+.Botones_del_pie_de_pagina button:hover {
+  background-color: #555; 
+  color: #fff; 
+}     

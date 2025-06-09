@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial=1.0">
@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="Pagina2.css">
 </head>
 <body>
-    <header>
-        <h1 id="Titulo principal" tabindex="-1">Wind Breaker</h1>
+    <header >
+        <h1 id="Titulo-principal" tabindex="-1">Wind Breaker</h1>
         </header>
 
     <main>
@@ -17,7 +17,7 @@
                 <div class="imagen-del-anime">
                     <img src="wind2.jpg" alt="Poster de wind breaker">
                 </div>
-                <p class="estado-del-anime">EN EMISIÓN</p>
+                <p class="estado-del-anime" aria-label="Estado del anime">EN EMISIÓN</p>
                 </div>
 
             <div class="sección-derecha">  
@@ -28,60 +28,12 @@
             </div>
         </section>
 
-        <section class="Lista-de-episodios">
+        <section class="Lista-de-episodios"  aria-labelledby="Capitulos-anime">
+            <div class="episodios-header">
             <h3 id="Capitulos-anime">Lista de episodios</h3>
-            <div class="galeria-de-episodios">
-                <div class="episodio-formato">
-                    <img src="cap1.png" alt="Miniatura del capitulo 1">
-                    <a href="https://www3.animeflv.net/ver/wind-breaker-1" title="Ir al capitulo 1 de wind breaker">Capitulo 1</a>
-                </div>
-                <div class="episodio-formato">
-                    <img src="cap2.png" alt="Miniatura del capitulo 2">
-                    <a href="https://www3.animeflv.net/ver/wind-breaker-2" title="Ir al capitulo 1 de wind breaker">Capitulo 2</a>
-                </div>
-                <div class="episodio-formato">
-                    <img src="cap3.png" alt="Miniatura del capitulo 3">
-                    <a href="https://www3.animeflv.net/ver/wind-breaker-3" title="Ir al capitulo 1 de wind breaker">Capitulo 3</a>
-                </div>
-                <div class="episodio-formato">
-                    <img src="cap4.png" alt="Miniatura del capitulo 4">
-                    <a href="https://www3.animeflv.net/ver/wind-breaker-4" title="Ir al capitulo 1 de wind breaker">Capitulo 4</a>
-                </div>
-                <div class="episodio-formato">
-                    <img src="cap5.png" alt="Miniatura del capitulo 5">
-                    <a href="https://www3.animeflv.net/ver/wind-breaker-5" title="Ir al capitulo 1 de wind breaker">Capitulo 5</a>
-                </div>
-                <div class="episodio-formato">
-                    <img src="cap6.png" alt="Miniatura del capitulo 6">
-                    <a href="https://www3.animeflv.net/ver/wind-breaker-6" title="Ir al capitulo 1 de wind breaker">Capitulo 6</a>
-                </div>
-                <div class="episodio-formato">
-                    <img src="cap7.png" alt="Miniatura del capitulo 7">
-                    <a href="https://www3.animeflv.net/ver/wind-breaker-7" title="Ir al capitulo 1 de wind breaker">Capitulo 7</a>
-                </div>
-                <div class="episodio-formato">
-                    <img src="cap8.png" alt="Miniatura del capitulo 8">
-                    <a href="https://www3.animeflv.net/ver/wind-breaker-8" title="Ir al capitulo 1 de wind breaker">Capitulo 8</a>
-                </div>
-                <div class="episodio-formato">
-                    <img src="cap9.png" alt="Miniatura del capitulo 9">
-                    <a href="https://www3.animeflv.net/ver/wind-breaker-9" title="Ir al capitulo 1 de wind breaker">Capitulo 9</a>
-                </div>
-                <div class="episodio-formato">
-                    <img src="cap10.png" alt="Miniatura del capitulo 10">
-                    <a href="https://www3.animeflv.net/ver/wind-breaker-10 title="Ir al capitulo 1 de wind breaker">Capitulo 10</a>
-                </div>
-                <div class="episodio-formato">
-                    <img src="cap11.png" alt="Miniatura del capitulo 11">
-                    <a href="https://www3.animeflv.net/ver/wind-breaker-11" title="Ir al capitulo 1 de wind breaker">Capitulo 11</a>
-                </div>
-                <div class="episodio-formato">
-                    <img src="cap12.png" alt="Miniatura del capitulo 12">
-                    <a href="https://www3.animeflv.net/ver/wind-breaker-12" title="Ir al capitulo 1 de wind breaker">Capitulo 12</a>
-                </div>
-
-                
-                
+            <button id="desplegar-caps" aria-expanded="false" aria-controls="galeria-de-episodios-contenido">Mostrar</button>
+            </div>
+            <div class="galeria-de-episodios hidden" id="galeria-de-episodios-contenido">
             </div>
         </section>
         
@@ -90,9 +42,10 @@
 <footer class="Pie_de_pagina">
     <div class="Botones_del_pie_de_pagina">
       <button type="button" data-url="https://www3.animeflv.net/politica-de-privacidad.html">Terminos y Condiciones</button>
-      <button type="button">Calendario de estrenos</button>
-      <button type="button" data-url="https://jkanime.net/directorio">Categorias</button>
+      <button type="button" data-url="Pagina3.html">Trabaja con nosotros</button>
+      <button type="button" data-url="index.html">Directorio</button>
     </div>
   </footer>
+   <script src="Pagina2.js"></script>
 </body>
 </html>
