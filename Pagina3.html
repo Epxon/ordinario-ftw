@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3</title>
+    <link rel="stylesheet" href="Pagina3.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo-principal" tabindex="-1">Trabaja con Nosotros</h1>
+    </header>
+
+    <main>
+        <div class="contenedor-formulario">
+            <h2>Solicitud de Empleo</h2> 
+
+            <form action="#" method="POST" class="aplicacion-de-trabajo">
+
+                <div class="grupo-formulario">
+                    <label for="nombre-completo">1. Nombre Completo</label>
+                    <p id="descripcion-nombre" class="descripción-del-campo">Por favor, proporciona tu nombre completo.</p>
+                    <input type="text" id="nombre-completo" name="nombre_completo" aria-describedby="campo-para-introducir-nombre" required>
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="edad">2. Edad</label>
+                    <p id="descripcion-edad" class="descripción-del-campo">Por favor, proporciona tu edad.</p>
+                    <input type="number" id="edad" name="edad_usuario" aria-describedby="descripcion-edad" required>
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="correo">3. Correo Electrónico</label>
+                    <p id="descripcion-correo" class="descripción-del-campo">Por favor, proporciona tu dirección de correo electrónico.</p>
+                    <input type="email" id="correo" name="correo_usuario" aria-describedby="descripcion-correo" required>
+                </div>
+
+                <div class="grupo-formulario">
+                    <fieldset>
+                        <legend>4. Puesto que solicita</legend>
+                        <p id="descripcion-puestos" class="descripción-del-campo">Selecciona uno o más puestos de interés.</p>
+
+                        <div class="opciones-checkbox">
+                            <input type="checkbox" id="puesto-traductor" name="puestos[]" value="Traductor">
+                            <label for="puesto-traductor">Traductor</label>
+                        </div>
+
+                        <div class="opciones-checkbox">
+                            <input type="checkbox" id="puesto-editor" name="puestos[]" value="Editor">
+                            <label for="puesto-editor">Editor (video/audio)</label>
+                        </div>
+
+                        <div class="opciones-checkbox">
+                            <input type="checkbox" id="puesto-calidad" name="puestos[]" value="Calidad">
+                            <label for="puesto-calidad">Responsable de calidad</label>
+                        </div>
+
+                        <div class="opciones-checkbox">
+                            <input type="checkbox" id="puesto-contenido" name="puestos[]" value="Contenido">
+                            <label for="puesto-contenido">Administrador de Contenido</label>
+                        </div>
+
+                        <div class="opciones-checkbox">
+                            <input type="checkbox" id="puesto-disenador" name="puestos[]" value="Diseñador">
+                            <label for="puesto-disenador">Diseñador Gráfico</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="discord">5. Discord ID</label>
+                    <p id="descripcion-discord" class="descripción-del-campo">Por favor, proporciona tu ID de Discord (ej. Usuario#1234).</p>
+                    <input type="text" id="discord" name="discord_id" aria-describedby="descripcion-discord" required>
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="motivo">6. ¿Por qué quieres trabajar con nosotros?</label>
+                    <p id="descripcion-motivo" class="descripción-del-campo">Cuéntanos tu motivación.</p>
+                    <textarea id="motivo" name="descripcion_usuario" aria-describedby="descripcion-motivo" required></textarea>
+                </div>
+
+                <button type="submit" class="boton enviar">Enviar Solicitud</button>
+            </form>
+        </div>
+    </main>
+
+ <footer class="Pie_de_pagina">
+    <div class="Botones_del_pie_de_pagina">
+      <button type="button" data-url="https://www3.animeflv.net/politica-de-privacidad.html">Terminos y Condiciones</button>
+      <button type="button" data-url="Pagina3.html">Trabaja con nosotros</button>
+      <button type="button" data-url="Pagina1.html">Directorio</button>
+    </div>
+  </footer>
+   <script src="Pagina3.js"></script>
+</body>
+</html>

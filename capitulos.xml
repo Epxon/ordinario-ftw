@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<episodios>
+    <episodio>
+        <imagen>cap1.png</imagen>
+        <titulo>Capitulo 1</titulo>
+        <enlace>https://www3.animeflv.net/ver/wind-breaker-1</enlace>
+        <alt_imagen>Miniatura del capitulo 1</alt_imagen>
+        <titulo_enlace>Ir al capitulo 1 de wind breaker</titulo_enlace>
+    </episodio>
+    <episodio>
+        <imagen>cap2.png</imagen>
+        <titulo>Capitulo 2</titulo>
+        <enlace>https://www3.animeflv.net/ver/wind-breaker-2</enlace>
+        <alt_imagen>Miniatura del capitulo 2</alt_imagen>
+        <titulo_enlace>Ir al capitulo 2 de wind breaker</titulo_enlace>
+    </episodio>
+    <episodio>
+        <imagen>cap3.png</imagen>
+        <titulo>Capitulo 3</titulo>
+        <enlace>https://www3.animeflv.net/ver/wind-breaker-3</enlace>
+        <alt_imagen>Miniatura del capitulo 3</alt_imagen>
+        <titulo_enlace>Ir al capitulo 3 de wind breaker</titulo_enlace>
+    </episodio>
+    <episodio>
+        <imagen>cap4.png</imagen>
+        <titulo>Capitulo 4</titulo>
+        <enlace>https://www3.animeflv.net/ver/wind-breaker-4</enlace>
+        <alt_imagen>Miniatura del capitulo 4</alt_imagen>
+        <titulo_enlace>Ir al capitulo 4 de wind breaker</titulo_enlace>
+    </episodio>
+    <episodio>
+        <imagen>cap5.png</imagen>
+        <titulo>Capitulo 5</titulo>
+        <enlace>https://www3.animeflv.net/ver/wind-breaker-5</enlace>
+        <alt_imagen>Miniatura del capitulo 5</alt_imagen>
+        <titulo_enlace>Ir al capitulo 5 de wind breaker</titulo_enlace>
+    </episodio>
+    <episodio>
+        <imagen>cap6.png</imagen>
+        <titulo>Capitulo 6</titulo>
+        <enlace>https://www3.animeflv.net/ver/wind-breaker-6</enlace>
+        <alt_imagen>Miniatura del capitulo 6</alt_imagen>
+        <titulo_enlace>Ir al capitulo 6 de wind breaker</titulo_enlace>
+    </episodio>
+    <episodio>
+        <imagen>cap7.png</imagen>
+        <titulo>Capitulo 7</titulo>
+        <enlace>https://www3.animeflv.net/ver/wind-breaker-7</enlace>
+        <alt_imagen>Miniatura del capitulo 7</alt_imagen>
+        <titulo_enlace>Ir al capitulo 7 de wind breaker</titulo_enlace>
+    </episodio>
+    <episodio>
+        <imagen>cap8.png</imagen>
+        <titulo>Capitulo 8</titulo>
+        <enlace>https://www3.animeflv.net/ver/wind-breaker-8</enlace>
+        <alt_imagen>Miniatura del capitulo 8</alt_imagen>
+        <titulo_enlace>Ir al capitulo 8 de wind breaker</titulo_enlace>
+    </episodio>
+    <episodio>
+        <imagen>cap9.png</imagen>
+        <titulo>Capitulo 9</titulo>
+        <enlace>https://www3.animeflv.net/ver/wind-breaker-9</enlace>
+        <alt_imagen>Miniatura del capitulo 9</alt_imagen>
+        <titulo_enlace>Ir al capitulo 9 de wind breaker</titulo_enlace>
+    </episodio>
+    <episodio>
+        <imagen>cap10.png</imagen>
+        <titulo>Capitulo 10</titulo>
+        <enlace>https://www3.animeflv.net/ver/wind-breaker-10</enlace>
+        <alt_imagen>Miniatura del capitulo 10</alt_imagen>
+        <titulo_enlace>Ir al capitulo 10 de wind breaker</titulo_enlace>
+    </episodio>
+    <episodio>
+        <imagen>cap11.png</imagen>
+        <titulo>Capitulo 11</titulo>
+        <enlace>https://www3.animeflv.net/ver/wind-breaker-11</enlace>
+        <alt_imagen>Miniatura del capitulo 11</alt_imagen>
+        <titulo_enlace>Ir al capitulo 11 de wind breaker</titulo_enlace>
+    </episodio>
+    <episodio>
+        <imagen>cap12.png</imagen>
+        <titulo>Capitulo 12</titulo>
+        <enlace>https://www3.animeflv.net/ver/wind-breaker-12</enlace>
+        <alt_imagen>Miniatura del capitulo 12</alt_imagen>
+        <titulo_enlace>Ir al capitulo 12 de wind breaker</titulo_enlace>
+    </episodio>
+</episodios>
